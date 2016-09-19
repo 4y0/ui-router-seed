@@ -1,0 +1,27 @@
+{
+  "name": "angular-express-ui-router",
+  "description": "",
+  "main": "",
+  "authors": [
+    "4y0"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/4y0/angular-express-ui-router",
+  "private": true,
+  "dependencies": {
+    "angular": "~1.3.5",
+    "angular-ui-router": "~0.2.12",
+    "angular-bootstrap": "~0.12.0",
+    "jquery": "~2.1.3",
+    "bootstrap": "~3.3.0",
+    "fontawesome": "~4.3.0", 
+    "animate.css": "https://github.com/daneden/animate.css.git#~3.2.0"
+  },
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
