@@ -1,4 +1,6 @@
-# Angular Express Seed
+# Angular UI-ROUTER Express Seed
+
+_Inspired by @btford [Angular Express Seed](https://github.com/btford/angular-express-seed)_
 
 Start an awesome app with AngularJS on the front, Express + Node on the back. This project is an
 application skeleton for a typical [AngularJS](http://angularjs.org/) web app for those who want
@@ -8,16 +10,19 @@ The seed contains angular libraries, test libraries and a bunch of scripts all p
 instant web development gratification. Just clone the repo (or download the zip/tarball) and
 you're ready to develop your application.
 
-The seed app shows how to wire together Angular client-side components with Express on the server.
+_You can also use the [movl cli util](https://www.npmjs.com/package/movl) to download the repo zip as a local seed
+so you don't have to clone / download the zip/tarball anytime you wish to scaffold_
+
+The seed app shows how to wire together Angular client-side components (using the ui-router library) with Express on the server.
 It also illustrates writing angular partials/views with the Jade templating library.
 
 _Note: Although Jade supports interpolation, you should be doing that mostly on the client. Mixing
 server and browser templating will convolute your app. Instead, use Jade as a syntactic sugar for
 HTML, and let AngularJS take care of interpolation on the browser side._
 
-## How to use angular-express-seed
+## How to use ui-router-seed
 
-Clone the angular-express-seed repository, run `npm install` to grab the dependencies, and start hacking!
+Clone the ui-router-seed repository, run `npm install` and `bower install` to grab the dependencies, and start hacking!
 
 ### Running the app
 
@@ -48,12 +53,7 @@ Just fetch the changes and merge them into your project with git.
         directives.js   --> custom angular directives
         filters.js      --> custom angular filters
         services.js     --> custom angular services
-        lib/            --> angular and 3rd party JavaScript libraries
-          angular/
-            angular.js            --> the latest angular js
-            angular.min.js        --> the latest minified angular js
-            angular-*.js          --> angular add-on modules
-            version.txt           --> version number
+        vendor/            --> angular, angular-ui-router and 3rd party JavaScript libraries 
     routes/
       api.js            --> route for serving JSON
       index.js          --> route for serving HTML pages and partials
@@ -64,11 +64,6 @@ Just fetch the changes and merge them into your project with git.
         partial1.jade
         partial2.jade
 
-
-
-## Example App
-
-A simple [blog](https://github.com/btford/angular-express-blog) based on this seed.
 
 
 ## Contact
